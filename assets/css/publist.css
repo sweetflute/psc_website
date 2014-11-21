@@ -1,0 +1,78 @@
+.pub
+{
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.pubInfo
+{
+  display: table-cell;
+  font-size: 95%;
+}
+
+.me
+{
+    font-weight: bolder;
+    color: black;
+}
+
+.title
+{
+    font-weight: bolder;
+    font-size:18px;
+    color:rgb(145,20,20);
+}
+
+.venue
+{
+    color: gray;
+}
+
+
+.thumbnail
+{
+    margin-right: 20;
+}
+
+.award-icon
+{
+    margin-left:10;
+    margin-right:5;
+}
+
+.award-text
+{
+    font-size:14px;
+    vertical-align:text-top;
+    color: #474747;
+    text-decoration: underline;
+}
+
+.authors
+{
+    color: #474747;
+}
+
+.type-tag
+{
+  font-size:14px;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  padding-left: 7;
+  padding-right: 7;
+  border-radius: 5px;
+}
+
+.supp
+{
+  color: #474747;
+  background-color: white;
+}
+
+h3
+{
+  color: #707070;
+  margin-left: 15px;
+
+}

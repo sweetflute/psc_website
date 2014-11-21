@@ -19,7 +19,6 @@
     "title"      :  "Designing Brain-Computer Interfaces for Intelligent Information Delivery Systems",
     "venue"      :  "Ph.D. Dissertation",
     "year"       :  2014,
-    "thumbnail"  :  "brainImage.png",
     "type"       :  "dissertation"
   },
 
@@ -29,7 +28,6 @@
     "title"      :  "Brain-Based Target Expansion",
     "venue"      :  "To appear in UIST: ACM Symposium on User Interface Software and Technology",
     "year"       :  2014,
-    "thumbnail"  :  "bubbleCursor.png",
     "type"       :  "conference"
   },
 
@@ -39,8 +37,7 @@
     "title"      :  "Using fNIRS to Measure Mental Workload in the Real World",
     "venue"      :  "Advances in Physiological Computing",
     "year"       :  2014,
-    "thumbnail"  :  "NIRSuse.jpg",
-    "pdf"        :  "http://link.springer.com/chapter/10.1007/978-1-4471-6392-3_6",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "chapter",
     "supp"       :  {"book link":"http://link.springer.com/book/10.1007/978-1-4471-6392-3"}
   },
@@ -51,8 +48,7 @@
     "title"      :  "Dynamic Difficulty Using Brain Metrics",
     "venue"      :  "CHI: ACM Conference on Human Factors in Computing Systems",
     "year"       :  2014,
-    "thumbnail"  :  "UAV.png",
-    "pdf"        :  "papers/chi14_dynamicdifficulty.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "conference",
     "award"      :  "Best Paper Honorable Mention",
     "supp"       :  {"video preview":"https://www.youtube.com/watch?v=89nleUf-X8I"}
@@ -64,8 +60,7 @@
     "title"      :  "Using fNIRS Brain Sensing to Evaluate Information Visualization Interfaces",
     "venue"      :  "CHI: ACM Conference on Human Factors in Computing Systems",
     "year"       :  2013,
-    "thumbnail"  :  "mcgill.png",
-    "pdf"        :  "papers/CHI_fNIRS_2013.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "conference",
     "supp"       :  {"video preview":"https://vimeo.com/57869681"}
   },
@@ -76,8 +71,7 @@
     "title"      :  "Using Passive Input to Adapt Visualization Systems to the Individual",
     "venue"      :  "CHI Workshop: Many People Many Eyes: Aggregating Influences of Visual Perception on User Interface Design",
     "year"       :  2013,
-    "thumbnail"  :  "manyPeople.png",
-    "pdf"        :  "papers/manyeyes_passiveinput.pdf",
+    "pdf"        :  "ppapers/test.pdf",
     "type"       :  "workshop",
     "supp"       :  {"workshop site":"http://people.seas.harvard.edu/~reinecke/manyeyes/index.html"}
   },
@@ -88,8 +82,7 @@
     "title"      :  "The Adaptive User: Priming to Improve Interaction",
     "venue"      :  "CHI Workshop: Many People Many Eyes: Aggregating Influences of Visual Perception on User Interface Design",
     "year"       :  2013,
-    "thumbnail"  :  "priming.png",
-    "pdf"        :  "papers/manyeyes_priming.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "workshop",
     "supp"       :  {"workshop site":"http://people.seas.harvard.edu/~reinecke/manyeyes/index.html"}
   },
@@ -100,8 +93,7 @@
     "title"      :  "Using fNIRS as Input to Information Filtering Systems",
     "venue"      :  "Augmented Human",
     "year"       :  2013,
-    "thumbnail"  :  "brainfilter.png",
-    "pdf"        :  "papers/epeck_AH2013.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "conference"
   },
 
@@ -111,8 +103,7 @@
     "title"      :  "Position Paper: Towards a 3-Dimensional Model of Individual Cognitive Differences",
     "venue"      :  "BELIV: Beyond Time and Errors: Novel Evaluation Methods for Visualization",
     "year"       :  2012,
-    "thumbnail"  :  "emptyCube.png",
-    "pdf"        :  "papers/IndDiff.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "workshop",
     "supp"       :  {"BELIV site":"http://beliv.cs.univie.ac.at/mediawiki/index.php/BELIV2012"}
   },
@@ -123,8 +114,7 @@
     "title"      :  "Near to the Brain: Functional Near-Infrared Spectroscopy as a Lightweight Brain Imaging Technique for Visualization",
     "venue"      :  "InfoVis: IEEE Information Visualization Posters",
     "year"       :  2011,
-    "thumbnail"  :  "barPie.png",
-    "pdf"        :  "papers/INFOVIS2011-Poster-fNIRS.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "poster",
     "award"      :  "Best Poster",
     "supp"       :  {"poster design":"papers/VisWeekPosterDesign.pdf"}
@@ -136,8 +126,7 @@
     "title"      :  "Neuroscience and Computing Introduction (Issue Editors)",
     "venue"      :  "ACM XRDS: Crossroads",
     "year"       :  2011,
-    "thumbnail"  :  "XRDS.png",
-    "pdf"        :  "papers/xrds-intro.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "article",
     "supp"       :  {"full issue": "http://dl.acm.org/citation.cfm?id=2000775.2000778&coll=portal&dl=ACM"}
   },
@@ -148,8 +137,7 @@
     "title"      :  "The Sensorium",
     "venue"      :  "ACM XRDS: Crossroads",
     "year"       :  2011,
-    "thumbnail"  :  "XRDS.png",
-    "pdf"        :  "papers/xrds-sensorium.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "article",
     "supp"       :  {"full issue": "http://dl.acm.org/citation.cfm?id=2000775.2000778&coll=portal&dl=ACM"}
   },
@@ -160,8 +148,7 @@
     "title"      :  "Framing Meaningful Adaptation in a Social Context",
     "venue"      :  "ACM CHI 2011 Workshop: Brain and Body Interfaces: Designing for Meaningful Interaction",
     "year"       :  2011,
-    "thumbnail"  :  "social.png",
-    "pdf"        :  "papers/MeaningfulAdaptationContext.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "workshop",
     "supp"       :  {"talk":"http://vimeo.com/24511497", "workshop site":"http://brainandbody.physiologicalcomputing.net/"}
   },
@@ -172,8 +159,7 @@
     "title"      :  "Access and Analysis: The Ethics of Brain-Computer Interfaces",
     "venue"      :  "ACM CHI 2011 Workshop: Brain and Body Interfaces: Designing for Meaningful Interaction",
     "year"       :  2011,
-    "thumbnail"  :  "fNIRS2.jpg",
-    "pdf"        :  "papers/ethicsBCI.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "workshop"
   },
 
@@ -183,8 +169,7 @@
     "title"      :  "Your Brain, Your Computer, and You",
     "venue"      :  "IEEE Computer: Invisible Computing Column",
     "year"       :  2010,
-    "thumbnail"  :  "ieee.png",
-    "pdf"        :  "papers/ieeeComputer.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "journal"
   },
 
@@ -194,8 +179,7 @@
     "title"      :  "From Brain Signals to Adaptive Interfaces: Using fNIRS in HCI",
     "venue"      :  "Brain-Computer Interfaces: Applying our Minds to Human-Computer Interaction",
     "year"       :  2010,
-    "thumbnail"  :  "fNIRS3.png",
-    "pdf"        :  "papers/BHCI_chapter.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "chapter",
     "supp"       :  {"book link":"http://www.springer.com/computer/hci/book/978-1-84996-271-1"}
   },
@@ -206,8 +190,7 @@
     "title"      :  "From Brains to Bytes",
     "venue"      :  "ACM XRDS: Crossroads",
     "year"       :  2010,
-    "thumbnail"  :  "xrds2010.png",
-    "pdf"        :  "papers/crossroads_2010.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "article",
     "supp"       :  {"full issue":"papers/crossroads2010fullissue.pdf"}
   },
@@ -218,8 +201,7 @@
     "title"      :  "Application of Correlation Analysis Tools for the Classification of Mental Workloads in Functional Near-Infrared Spectroscopy",
     "venue"      :  "Biomedical Optics",
     "year"       :  2010,
-    "thumbnail"  :  "correlationAnalysis.png",
-    "pdf"        :  "papers/CorrelationAnalysis2010.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "poster"
   },
 
@@ -229,8 +211,7 @@
     "title"      :  "Volunteer Computing Games: Merging Online Casual Gaming with Volunteer Computing",
     "venue"      :  "Meaningful Play",
     "year"       :  2008,
-    "thumbnail"  :  "pebble.png",
-    "pdf"        :  "papers/volunteer_computing.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "conference"
   },
 
@@ -240,7 +221,6 @@
     "title"      :  "Pebble It: A Human Computing Game",
     "venue"      :  "Meaningful Play",
     "year"       :  2008,
-    "thumbnail"  :  "pebble.png",
     "type"       :  "demo"
   },
 
@@ -250,8 +230,7 @@
     "title"      :  "Wildfire Wally: A Volunteer Computing Game",
     "venue"      :  "Future Play",
     "year"       :  2007,
-    "thumbnail"  :  "wally.png",
-    "pdf"        :  "papers/wildfire_wally.pdf",
+    "pdf"        :  "papers/test.pdf",
     "type"       :  "poster",
     "supp"       :  {"poster design":"papers/FuturePlayPoster.pdf"}
   }
