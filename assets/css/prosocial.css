@@ -1,12 +1,1 @@
-.header {
-border-bottom: 0px;
-}
-
-.footer {
-padding-top: 40px;
-border-top: 0px;
-}
-
-.panel-feed {
-border-bottom: 2px solid #27ae60;
-}
+body { padding-top: 70px; }
