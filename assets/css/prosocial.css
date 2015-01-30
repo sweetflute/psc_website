@@ -27,3 +27,7 @@ body { padding-top: 50px; }
   font-size: 12px;
   font-weight: 500;
 }
+
+.personal {
+  margin: 20px;
+}
