@@ -1,10 +1,30 @@
+<script src="assets/js/d3.min.js"></script>
+<script>
+  body = d3.select("#research-body");
+
+  theme_bar = body.append("div");
+
+  theme_bar.append("div")
+
+
+  d3.selectAll(".research-button")
+    .on("click", focusResearch(this));
+
+  function focusResearch(button) {
+    console.log(button);
+  }
+</script>
+
+<div id="research-body">
+</div>
+
 <div class="row">
   <div class="col-md-12">
     <div class="btn-group" role="group" aria-label="...">
-      <button type="button" class="btn btn-default">all</button>
-      <button type="button" class="btn btn-default">research area 1</button>
-      <button type="button" class="btn btn-default">research area 2</button>
-      <button type="button" class="btn btn-default">research area 3</button>
+      <button type="button" class="btn btn-default research-button">all</button>
+      <button type="button" class="btn btn-default research-button">Health</button>
+      <button type="button" class="btn btn-default research-button">Community</button>
+      <button type="button" class="btn btn-default research-button">Communication</button>
     </div>
   </div>
 </div>
