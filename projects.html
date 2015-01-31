@@ -2,76 +2,139 @@
 <script>
   body = d3.select("#research-body");
 
-  theme_bar = body.append("div");
+  body.selectAll("research-area")
 
-  theme_bar.append("div")
-
-
-  d3.selectAll(".research-button")
-    .on("click", focusResearch(this));
-
-  function focusResearch(button) {
-    console.log(button);
-  }
 </script>
 
-<div id="research-body">
-</div>
+<style>
 
-<div class="row">
-  <div class="col-md-12">
-    <div class="btn-group" role="group" aria-label="...">
-      <button type="button" class="btn btn-default research-button">all</button>
-      <button type="button" class="btn btn-default research-button">Health</button>
-      <button type="button" class="btn btn-default research-button">Community</button>
-      <button type="button" class="btn btn-default research-button">Communication</button>
+.research-area {
+  margin: 10px;
+  /*border: 10px black solid;*/
+  width: 200px;
+  display: inline-block;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+
+  font-size: 1.5em;
+}
+
+.research-area img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.overlay {
+  background:rgba(0,0,0,.75);
+  text-align:center;
+  color: white;
+  opacity:0;
+  width: 200px;
+  height: 250px;
+  margin-bottom: -240px;
+  z-index: 10;
+  display:block;
+  position: absolute;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+.research-area:hover .overlay {
+  opacity: 1;
+}
+
+.overlay span {
+  color:rgba(255,255,255,.85);
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  /*padding: 20px;*/
+  text-align: center;
+  /*display: table-cell;*/
+  /*vertical-align: middle;*/
+}
+
+.research-title {
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 2em
+}
+
+</style>
+
+<div id="research-body">
+
+  <div class="research-area">
+    <div class="overlay">
+      <span>
+        <br />Designing and Building Technology to support Cities, Neighborhoods and Local Communities
+      </span>
     </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4">
-    <img src="#" alt="" class="img-rounded">
-  </div>
-  <div class="col-md-8">
-    <h4>
-      Title
-    </h4>
-    <div id="research_area">
+    <img src="assets/img/community2.jpg">
+    <div class="research-title">
+      Community
     </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius varius eros, quis ullamcorper augue ultrices ac. Praesent diam nisl, suscipit a lectus non, tempus euismod nisi. Integer lobortis neque sed mollis mollis. Praesent dolor urna, maximus ut consequat mattis, fermentum vitae erat.
-    </p>
-    <p><a>link to publication</a></p>
-    <p><a>link to publication</a></p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4">
-    <img src="#" alt="" class="img-rounded">
-  </div>
-  <div class="col-md-8">
-    <h4>
-      Title
-    </h4>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius varius eros, quis ullamcorper augue ultrices ac. Praesent diam nisl, suscipit a lectus non, tempus euismod nisi. Integer lobortis neque sed mollis mollis. Praesent dolor urna, maximus ut consequat mattis, fermentum vitae erat.
-    </p>
-    <p><a>link to publication</a></p>
-    <p><a>link to publication</a></p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4">
-    <img src="#" alt="" class="img-rounded">
-  </div>
-  <div class="col-md-8">
-    <h4>
-      Title
-    </h4>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius varius eros, quis ullamcorper augue ultrices ac. Praesent diam nisl, suscipit a lectus non, tempus euismod nisi. Integer lobortis neque sed mollis mollis. Praesent dolor urna, maximus ut consequat mattis, fermentum vitae erat.
-    </p>
-    <p><a>link to publication</a></p>
-    <p><a>link to publication</a></p>
-  </div>
-</div>
+  </div> <!-- Research Area 1 -->
+
+
+  <div class="research-area">
+    <div class="overlay">
+      <span>
+        <br />Designing and Building Technology to improve People's Health and Well-Being 
+      </span>
+    </div>
+    <img src="assets/img/community2.jpg">
+    <div class="research-title">
+      Health
+    </div>
+  </div> <!-- Research Area 1 -->
+
+
+  <div class="research-area">
+    <div class="overlay">
+      <span>
+        <br />Designing and Building Technology to support Cities, Neighborhoods and Local Communities
+      </span>
+    </div>
+    <img src="assets/img/community2.jpg">
+    <div class="research-title">
+      Politics
+    </div>
+  </div> <!-- Research Area 1 -->
+
+
+  <div class="research-area">
+    <div class="overlay">
+      <span>
+        <br />Mobilizing People to Benefit Each Others' Lives 
+      </span>
+    </div>
+    <img src="assets/img/community2.jpg">
+    <div class="research-title">
+      Crowd
+    </div>
+  </div> <!-- Research Area 1 -->
+
+
+  <div class="research-area">
+    <div class="overlay">
+      <span>
+        <br />Making Tailored Motivators to Change Behavior 
+      </span>
+    </div>
+    <img src="assets/img/community2.jpg">
+    <div class="research-title">
+      Motivator
+    </div>
+  </div> <!-- Research Area 1 -->
+</div> <!-- Research Body -->
