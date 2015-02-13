@@ -140,7 +140,7 @@ function renderPubs(pubData, target) {
 
   awardIcon.append('text')
     .classed('award-text', true)
-    .text(function(d) { award_text = d.award; return d.award; });
+    .text(function(d) { return d.award; });
 
  
   //authors
