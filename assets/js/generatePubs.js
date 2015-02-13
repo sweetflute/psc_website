@@ -17,7 +17,7 @@ GROUP_ORDER = ['dissertation', 'journal', 'conference', 'chapter', 'workshop', '
 // If using custom grouping, I use this order
 // GROUP_ORDER = ['journal/chapter','conference/workshop', 'other'];
 
-ICON_PATH =  "images/";
+ICON_PATH =  "assets/img/";
 ICON_SIZE = 95;
 
 // Assumes that we are only going to have 10
@@ -121,18 +121,28 @@ function renderPubs(pubData, target) {
       .text(function(d) { return d.title; });
 
   // Add award icon and text
+  var award_text = "";
   var awardIcon = pubInfo.selectAll('.title')
-      .filter(function(d) { return d.award || ''});
+      .filter(function(d) { award_text = d.award || ''; return award_text;});
+
+
+  var icon_src="";
+  if (award_text.toLowerCase() === "best paper") {
+    icon_src = 'best-paper-icon.png';
+  }else{
+    icon_src = 'honorable-paper-icon.png';
+  }
 
   awardIcon.append('img')
       .classed('award-icon', true)
-      .attr('src', 'icons/cert.png')
-      .attr('width', 13);
+      .attr('src', ICON_PATH + icon_src)
+      .attr('width', 15);
 
   awardIcon.append('text')
     .classed('award-text', true)
-    .text(function(d) { return d.award; });
+    .text(function(d) { award_text = d.award; return d.award; });
 
+ 
   //authors
   pubInfo.append('div')
       .classed('authors', true)

@@ -41,14 +41,14 @@
 
 .award-icon
 {
-    margin-left:10;
-    margin-right:5;
+    margin-left:15;
+    margin-right:15;
 }
 
 .award-text
 {
-    font-size:14px;
-    vertical-align:text-top;
+    font-size:12px;
+    /*vertical-align:text-top;*/
     color: #474747;
     text-decoration: underline;
 }
