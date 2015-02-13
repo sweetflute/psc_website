@@ -1,7 +1,12 @@
 .pub
 {
   margin-bottom: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
+}
+
+.typeGroup
+{
+  margin-left: 0px;  
 }
 
 .pubInfo

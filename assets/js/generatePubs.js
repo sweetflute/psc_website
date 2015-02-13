@@ -1,15 +1,15 @@
 MY_NAME = "Evan M. Peck";
 
 // DISPLAY OPTIONS -------
-SHOW_THUMBNAILS = true;
-SHOW_TYPE_TAGS = true;
+SHOW_THUMBNAILS = false;
+SHOW_TYPE_TAGS = false;
 SHOW_YEAR_HEADINGS = true;
 // Note that this is still organized by year,
 // so it doesn't make sense for this to be true
 // and SHOW_YEAR_HEADINGS to be false.
 SHOW_TYPE_HEADINGS = false;
 // If true, assumes that there is a pub_grouping mapping in the json object
-USE_CUSTOM_GROUPS = false;
+USE_CUSTOM_GROUPS = true;
 //-------------------------
 
 // The order the that types are grouped during each year
@@ -74,6 +74,7 @@ function buildTypes() {
 
   if (SHOW_TYPE_HEADINGS)
     types.append('h3').text(function(d) { return d.key; });
+
   types.each(renderPubs);
 }
 
@@ -104,7 +105,7 @@ function renderPubs(pubData, target) {
       .style('background-color', function(d) {
         return tagColor(d.type);
       })
-      .style('opacity', 0.5);
+      .style('opacity', 1);
   }
 
 // Div for all the publication info
