@@ -1,4 +1,4 @@
-MY_NAME = "Evan M. Peck";
+MY_NAME = "";
 
 // DISPLAY OPTIONS -------
 SHOW_THUMBNAILS = false;
@@ -25,7 +25,7 @@ var tagColor;
 // If we use customs group, this maps orig type name to custom group name
 var groupMap;
 
-d3.json('pubs.json', function(json){
+d3.json('papers/pubs.json', function(json){
 
     if (USE_CUSTOM_GROUPS)
         groupMap = d3.map(json.pub_grouping);

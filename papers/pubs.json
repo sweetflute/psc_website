@@ -14,12 +14,15 @@
   "publications" : [
 
   {
-    "key"        :  "dis_14",
-    "author"     :  ["Evan M. Peck"],
-    "title"      :  "Designing Brain-Computer Interfaces for Intelligent Information Delivery Systems",
-    "venue"      :  "Ph.D. Dissertation",
-    "year"       :  2014,
-    "type"       :  "dissertation"
+    "key"        :  "chi_15",
+    "author"     :  ["Shih-Wen Huang", "Minhyung Suh", "Mako Hill", "Gary Hsieh"],
+    "title"      :  "How Activists are Both Born and Made: An Analysis of Users on Change.org",
+    "venue"      :  "To appear in CHI: ACM Conference on Human Factors in Computing Systems",
+    "year"       :  2015,
+    "type"       :  "conference",
+    "pdf"        :  "papers/test.pdf",
+    "supp"       :  {"book link":"http://link.springer.com/book/10.1007/978-1-4471-6392-3", "video preview":"https://www.youtube.com/watch?v=89nleUf-X8I"}
+
   },
 
   {
