@@ -24,7 +24,7 @@ body { padding-top: 50px; }
 }
 
 .frontpanel {
-  background-color: #ef382c;
+  background-color: white;
   width: 100%;
 }
 
@@ -72,4 +72,25 @@ background-color: #036;
 {
 color: #fff;
 background-color: #369;
+}
+
+.mission{
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  text-align: center;
+}
+
+.overlay-mission {
+  text-align:center;
+  color: black;
+  width: 50%;
+  height: 250px;
+  margin-bottom: -240px;
+  z-index: 10;
+  display:block;
+  position: absolute;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
 }
