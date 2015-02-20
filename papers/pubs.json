@@ -22,220 +22,109 @@
     "type"       :  "conference",
     "pdf"        :  "papers/test.pdf",
     "supp"       :  {"book link":"http://link.springer.com/book/10.1007/978-1-4471-6392-3", "video preview":"https://www.youtube.com/watch?v=89nleUf-X8I"}
-
   },
-
-  {
-    "key"        :  "uist_14",
-    "author"     :  ["Daniel Afergan", "Tomoki Shibata", "Sam Hincks", "Evan M. Peck", "Beste F. Yuksel", "Remco Chang", "Robert J.K. Jacob"],
-    "title"      :  "Brain-Based Target Expansion",
-    "venue"      :  "To appear in UIST: ACM Symposium on User Interface Software and Technology",
-    "year"       :  2014,
-    "type"       :  "conference"
+  { "key"   : "munsonCHI2015",
+    "author"  : ["Sean A. Munson", "Erin Krupka", "Caroline Richardson", "Paul Resnick"],
+    "title"   : "Effects of Public Commitments and Accountability in a Technology-Supported Physical Activity Intervention",
+    "venue"   : "CHI",
+    "year"    : 2015,
+    "type"    : "conference",
+    "pdf"   : "http://smunson.com/portfolio/projects/swellness/publiccommitments.pdf"
   },
-
-  {
-    "key"        :  "phycs_14",
-    "author"     :  ["Evan M. Peck", "Daniel Afergan", "Beste F. Yuksel", "Remco Chang", "Robert J.K. Jacob"],
-    "title"      :  "Using fNIRS to Measure Mental Workload in the Real World",
-    "venue"      :  "Advances in Physiological Computing",
-    "year"       :  2014,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "chapter",
-    "supp"       :  {"book link":"http://link.springer.com/book/10.1007/978-1-4471-6392-3"}
+  { "key"   : "kayCHI2015",
+    "author"  : ["Matthew Kay", "Cynthia Matuszek", "Sean A. Munson"],
+    "title"   : "Unequal Representation and Gender Stereotypes in Image Search Results for Occupations",
+    "venue"   : "CHI",
+    "year"    : 2015,
+    "type"    : "conference",
+    "pdf"   : "http://smunson.com/portfolio/projects/unequalrepresentation.pdf"
   },
-
-  {
-    "key"        :  "chi_14",
-    "author"     :  ["Daniel Afergan", "Evan M. Peck", "Erin Solovey", "A.J. Jenkins", "Sam Hincks", "Remco Chang", "Robert J.K. Jacob"],
-    "title"      :  "Dynamic Difficulty Using Brain Metrics",
-    "venue"      :  "CHI: ACM Conference on Human Factors in Computing Systems",
-    "year"       :  2014,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "conference",
-    "award"      :  "Best Paper Honorable Mention",
-    "supp"       :  {"video preview":"https://www.youtube.com/watch?v=89nleUf-X8I"}
+  { "key"   : "epsteinCSCW2015",
+    "author"  : ["Daniel A. Epstein", "Bradley H. Jacobson", "Elizabeth Bales", "David W. McDonald", "Sean A. Munson"],
+    "title"   : "From nobody cares to way to go!: A Design Framework for Social Sharing in Personal Informatics",
+    "venue"   : "CSCW",
+    "year"    : 2015,
+    "type"    : "conference",
+    "pdf"   : "http://smunson.com/portfolio/projects/swellness/social_persinfo.pdf"
   },
-
-  {
-    "key"        :  "chi_13",
-    "author"     :  ["Evan M. Peck", "Beste F. Yuksel", "Alvitta Ottley", "Robert J.K. Jacob", "Remco Chang"],
-    "title"      :  "Using fNIRS Brain Sensing to Evaluate Information Visualization Interfaces",
-    "venue"      :  "CHI: ACM Conference on Human Factors in Computing Systems",
-    "year"       :  2013,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "conference",
-    "supp"       :  {"video preview":"https://vimeo.com/57869681"}
+  { "key"   : "sleeperCSCW2015",
+    "author"  : ["Manya Sleeper", "Alessandro Acquisti", "Lorrie Faith Cranor", "Patrick Gage Kelley", "Sean A. Munson", "Norman Sadeh"],
+    "title"   : "I Would Like To..., I Shouldn't..., I Wish I...: Exploring Behavior-Change Goals for Social Networking Sites",
+    "venue"   : "CSCW",
+    "year"    : 2015,
+    "type"    : "conference",
+    "pdf"   : "http://smunson.com/portfolio/projects/snsGoals_CSCW2015.pdf"
   },
-
-  {
-    "key"        :  "me_13a",
-    "author"     :  ["Daniel Afergan", "Evan M. Peck", "Remco Chang", "Robert J.K. Jacob"],
-    "title"      :  "Using Passive Input to Adapt Visualization Systems to the Individual",
-    "venue"      :  "CHI Workshop: Many People Many Eyes: Aggregating Influences of Visual Perception on User Interface Design",
-    "year"       :  2013,
-    "pdf"        :  "ppapers/test.pdf",
-    "type"       :  "workshop",
-    "supp"       :  {"workshop site":"http://people.seas.harvard.edu/~reinecke/manyeyes/index.html"}
+  { "key"   : "munsonGamificationHealth",
+    "author"  : ["Sean A. Munson", "Erika Poole", "Daniel B. Perry", "Tamara Peyton"],
+    "title"   : "Gamification and Health",
+    "venue"   : "The Gameful World: Approaches, Issues, Applications",
+    "year"    : 2015,
+    "type"    : "chapter"
   },
-
-  {
-    "key"        :  "me_13b",
-    "author"     :  ["Alvitta Ottley", "Evan M. Peck", "Lane Harrison", "Remco Chang"],
-    "title"      :  "The Adaptive User: Priming to Improve Interaction",
-    "venue"      :  "CHI Workshop: Many People Many Eyes: Aggregating Influences of Visual Perception on User Interface Design",
-    "year"       :  2013,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "workshop",
-    "supp"       :  {"workshop site":"http://people.seas.harvard.edu/~reinecke/manyeyes/index.html"}
+  { "key"   : "dixon2014prefab",
+    "author"  : ["Morgan Dixon", "Alexander Nied", "James Fogarty"],
+    "title"   : "Prefab layers and prefab annotations: extensible pixel-based interpretation of graphical interfaces",
+    "venue"   : "UIST",
+    "year"    : 2014,
+    "type"    : "conference",
+    "pdf"   : "http://homes.cs.washington.edu/~anied/papers/AConradNied_Prefab_UIST_20141025.pdf"
   },
-
-  {
-    "key"        :  "ah_13",
-    "author"     :  ["Evan M. Peck", "Daniel Afergan", "Robert J.K. Jacob"],
-    "title"      :  "Using fNIRS as Input to Information Filtering Systems",
-    "venue"      :  "Augmented Human",
-    "year"       :  2013,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "conference"
+  { "key"   : "hsiehCHI2014",
+    "author"  : ["Gary Hsieh", "Jilin Chen", "Jalal Mahmud", "Jeffrey Nichols"],
+    "title"   : "You Read What You Value: Understanding Personal Values and Reading Interests",
+    "venue"   : "CHI",
+    "year"    : 2014,
+    "type"    : "conference",
+    "pdf"   : "http://faculty.washington.edu/garyhs/docs/hsieh-CHI2014-values.pdf"
   },
-
-  {
-    "key"        :  "beliv_12",
-    "author"     :  ["Evan M. Peck", "Beste F. Yuksel", "Lane Harrison", "Alvitta Ottley", "Remco Chang"],
-    "title"      :  "Position Paper: Towards a 3-Dimensional Model of Individual Cognitive Differences",
-    "venue"      :  "BELIV: Beyond Time and Errors: Novel Evaluation Methods for Visualization",
-    "year"       :  2012,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "workshop",
-    "supp"       :  {"BELIV site":"http://beliv.cs.univie.ac.at/mediawiki/index.php/BELIV2012"}
+  { "key"   : "epsteinDIS2014",
+    "author"  : ["Daniel A. Epstein", "Felicia Cordeiro", "Elizabeth Bales", "James Fogarty", "Sean A. Munson"],
+    "title"   : "Taming Data Complexity in Lifelogs: Exploring Visual Cuts of Personal Informatics Data",
+    "venue"   : "DIS",
+    "year"    : 2014,
+    "type"    : "conference",
+    "pdf"   : "http://www.smunson.com/portfolio/projects/lifelogs/taminglifelogs_dis2014.pdf"
   },
-
-  {
-    "key"        :  "vis_11",
-    "author"     :  ["Evan M. Peck", "Erin Solovey", "Sara Su", "Robert J.K. Jacob", "Remco Chang"],
-    "title"      :  "Near to the Brain: Functional Near-Infrared Spectroscopy as a Lightweight Brain Imaging Technique for Visualization",
-    "venue"      :  "InfoVis: IEEE Information Visualization Posters",
-    "year"       :  2011,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "poster",
-    "award"      :  "Best Poster",
-    "supp"       :  {"poster design":"papers/VisWeekPosterDesign.pdf"}
+  { "key"   : "zhangICWSM2014",
+    "author"  : ["H Zhang", "A Monroy-Hern&aacute;ndez", "Aaron Shaw", "Sean A. Munson", "Elizabeth Gerber", "Benjamin Mako Hill", "Peter Kinnaird", "Shelley D. Farnham", "Patrick Minder"],
+    "title"   : "WeDo: End-To-End Computer Supported Collective Action",
+    "venue"   : "ICWSM",
+    "year"    : 2014,
+    "type"    : "conference",
+    "pdf"   : "http://www.smunson.com/portfolio/projects/wedo/wedo-icwsm14.pdf"
   },
-
-  {
-    "key"        :  "xrds_11a",
-    "author"     :  ["Evan M. Peck", "Erin Solovey"],
-    "title"      :  "Neuroscience and Computing Introduction (Issue Editors)",
-    "venue"      :  "ACM XRDS: Crossroads",
-    "year"       :  2011,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "article",
-    "supp"       :  {"full issue": "http://dl.acm.org/citation.cfm?id=2000775.2000778&coll=portal&dl=ACM"}
+  { "key"   : "gow2014rules",
+    "author"  : ["David Gow Jr", "Alexander Nied"],
+    "title"   : "Rules from Words: A Dynamic Neural Basis for a Lawful Linguistic Process",
+    "venue"   : "PloS one",
+    "year"    : 2014,
+    "type"    : "journal",
+    "pdf"   : "http://homes.cs.washington.edu/~anied/papers/AConradNied_PTC_PLoSONE_20140121.pdf"
   },
-
-  {
-    "key"        :  "xrds_11b",
-    "author"     :  ["Evan M. Peck", "Erin Solovey"],
-    "title"      :  "The Sensorium",
-    "venue"      :  "ACM XRDS: Crossroads",
-    "year"       :  2011,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "article",
-    "supp"       :  {"full issue": "http://dl.acm.org/citation.cfm?id=2000775.2000778&coll=portal&dl=ACM"}
+  { "key"   : "shawInteractions2014",
+    "author"  : ["Aaron Shaw", "H Zhang", "A Monroy-Hern&aacute;ndez", "Sean A. Munson", "Benjamin Mako Hill", "Elizabeth Gerber", "Peter Kinnaird", "Patrick Minder"],
+    "title"   : "Computer Supported Collective Action",
+    "venue"   : "interactions",
+    "year"    : 2014,
+    "type"    : "article",
+    "pdf"     : "http://mako.cc/academic/shaw_et_al-csca-interactions-2014.pdf"
   },
-
-  {
-    "key"        :  "bbw_11a",
-    "author"     :  ["Evan M. Peck", "Francine Lalooses", "Krysta Chauncey"],
-    "title"      :  "Framing Meaningful Adaptation in a Social Context",
-    "venue"      :  "ACM CHI 2011 Workshop: Brain and Body Interfaces: Designing for Meaningful Interaction",
-    "year"       :  2011,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "workshop",
-    "supp"       :  {"talk":"http://vimeo.com/24511497", "workshop site":"http://brainandbody.physiologicalcomputing.net/"}
+  { "key"   : "hsiehCSCW2014",
+    "author"  : ["Jilin Chen", "Gary Hsieh", "Jalal Mahmud", "Jeffrey Nichols"],
+    "title"   : "Understanding Individuals' Personal Values from Social Media Word Use",
+    "venue"   : "CSCW",
+    "year"    : 2014,
+    "type"    : "conference",
+    "pdf"   : "http://faculty.washington.edu/garyhs/docs/chen-CSCW2014-values.pdf"
   },
-
-  {
-    "key"        :  "bbw_11b",
-    "author"     :  ["Krysta Chauncey", "Evan M. Peck"],
-    "title"      :  "Access and Analysis: The Ethics of Brain-Computer Interfaces",
-    "venue"      :  "ACM CHI 2011 Workshop: Brain and Body Interfaces: Designing for Meaningful Interaction",
-    "year"       :  2011,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "workshop"
-  },
-
-  {
-    "key"        :  "comp_10",
-    "author"     :  ["Evan M. Peck", "Erin Solovey", "Audrey Girouard", "Leanne Hirshfield", "Krysta Chauncey", "Angelo Sassaroli", "Sergio Fantini", "Robert J.K. Jacob"],
-    "title"      :  "Your Brain, Your Computer, and You",
-    "venue"      :  "IEEE Computer: Invisible Computing Column",
-    "year"       :  2010,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "journal"
-  },
-
-  {
-    "key"        :  "bci_10",
-    "author"     :  ["Audrey Girouard", "Erin Solovey", "Leanne Hirshfield", "Evan M. Peck", "Krysta Chauncey", "Angelo Sassaroli", "Sergio Fantini", "Robert J.K. Jacob"],
-    "title"      :  "From Brain Signals to Adaptive Interfaces: Using fNIRS in HCI",
-    "venue"      :  "Brain-Computer Interfaces: Applying our Minds to Human-Computer Interaction",
-    "year"       :  2010,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "chapter",
-    "supp"       :  {"book link":"http://www.springer.com/computer/hci/book/978-1-84996-271-1"}
-  },
-
-  {
-    "key"        :  "xrds_10",
-    "author"     :  ["Evan M. Peck", "Krysta Chauncey", "Audrey Girouard", "Rebecca Gulotta", "Francine Lalooses", "Erin Solovey", "Douglas Weaver", "Robert J.K. Jacob"],
-    "title"      :  "From Brains to Bytes",
-    "venue"      :  "ACM XRDS: Crossroads",
-    "year"       :  2010,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "article",
-    "supp"       :  {"full issue":"papers/crossroads2010fullissue.pdf"}
-  },
-
-  {
-    "key"        :  "osa_10",
-    "author"     :  ["Angelo Sassaroli", "F. Zheng", "Audrey Girouard", "Erin Solovey", "Krysta Chauncey", "Leanne Hirshfield", "Evan M. Peck", "Robert J.K. Jacob", "Sergio Fantini"],
-    "title"      :  "Application of Correlation Analysis Tools for the Classification of Mental Workloads in Functional Near-Infrared Spectroscopy",
-    "venue"      :  "Biomedical Optics",
-    "year"       :  2010,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "poster"
-  },
-
-  {
-    "key"        :  "mplay_08a",
-    "author"     :  ["Charles Cusack", "Evan M. Peck", "Maria Riolo"],
-    "title"      :  "Volunteer Computing Games: Merging Online Casual Gaming with Volunteer Computing",
-    "venue"      :  "Meaningful Play",
-    "year"       :  2008,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "conference"
-  },
-
-  {
-    "key"        :  "mplay_08b",
-    "author"     :  ["Charles Cusack", "Andrew Foster", "Jeff Largent", "Kevin Browder", "Evan M. Peck"],
-    "title"      :  "Pebble It: A Human Computing Game",
-    "venue"      :  "Meaningful Play",
-    "year"       :  2008,
-    "type"       :  "demo"
-  },
-
-  {
-    "key"        :  "fplay_07",
-    "author"     :  ["Evan M. Peck", "Maria Riolo", "Charles Cusack"],
-    "title"      :  "Wildfire Wally: A Volunteer Computing Game",
-    "venue"      :  "Future Play",
-    "year"       :  2007,
-    "pdf"        :  "papers/test.pdf",
-    "type"       :  "poster",
-    "supp"       :  {"poster design":"papers/FuturePlayPoster.pdf"}
+  { "key"   : "munsonCSCW2014",
+    "author"  : ["Sean A. Munson", "Karina Kervin", "Lionel Robert"],
+    "title"   : "Monitoring Email to Indicate Project Team Performance and Mutual Attraction",
+    "venue"   : "CSCW",
+    "year"    : 2014,
+    "type"    : "conference",
+    "pdf"   : "http://www.smunson.com/portfolio/projects/emaildashboard-final.pdf"
   }
 
   ]
