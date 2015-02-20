@@ -6,7 +6,21 @@ body { padding-top: 50px; }
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: white;
+  color: black;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: red;
 }
 
 .frontpanel {
