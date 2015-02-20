@@ -1,140 +1,131 @@
-<script src="assets/js/d3.min.js"></script>
-<script>
-  body = d3.select("#research-body");
 
-  body.selectAll("research-area")
-
-</script>
-
-<style>
-
-.research-area {
-  margin: 10px;
-  /*border: 10px black solid;*/
-  width: 200px;
-  display: inline-block;
-}
-
-.image {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 200px;
-  height: 200px;
-
-  font-size: 1.5em;
-}
-
-.research-area img {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 200px;
-  height: 200px;
-  z-index: 1;
-}
-
-.overlay {
-  background:rgba(0,0,0,.75);
-  text-align:center;
-  color: white;
-  opacity:0;
-  width: 200px;
-  height: 250px;
-  margin-bottom: -240px;
-  z-index: 10;
-  display:block;
-  position: absolute;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
-}
-
-.research-area:hover .overlay {
-  opacity: 1;
-}
-
-.overlay span {
-  color:rgba(255,255,255,.85);
-  letter-spacing: 2px;
-  font-size: 1.5em;
-  /*padding: 20px;*/
-  text-align: center;
-  /*display: table-cell;*/
-  /*vertical-align: middle;*/
-}
-
-.research-title {
-  height: 40px;
-  padding: 10px;
-  text-align: center;
-  font-size: 2em
-}
-
-</style>
-
-<div id="research-body">
-
-  <div class="research-area">
-    <div class="overlay">
-      <span>
-        <br />Designing and Building Technology to support Cities, Neighborhoods and Local Communities
-      </span>
+<div id="research-area">
+  <div class="row">
+    <a href="#community">
+      <div class="col-md-4">
+        <img src="assets/img/community.svg" width="100%"/>
+        <h4>Community</h4>
+        <p><small>Designing and Building Technology to support Cities, Neighborhoods and Local Communities</small></p>
+      </div>
+    </a>
+    <div class="col-md-4">
+      <img src="assets/img/crowd.svg" width="100%"/>
+      <h4>Crowd</h4>
+      <p><small>Mobilizing People to Benefit Each Others' Lives</small></p>
     </div>
-    <img src="assets/img/community2.jpg">
-    <div class="research-title">
-      Community
+    <div class="col-md-4">
+      <img src="assets/img/health.svg" width="100%"/>
+      <h4>Health</h4>
+      <p><small>Designing and Building Technology to improve People's Health and Well-Being</small></p>
     </div>
-  </div> <!-- Research Area 1 -->
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="assets/img/motivator.svg" width="100%"/>
+      <h4>Motivator</h4>
+      <p><small>Making Tailored Motivators to Change Behavior</small></p>
+    </div>
+    <div class="col-md-4">
+      <img src="assets/img/politics.svg" width="100%"/>
+      <h4>Politics</h4>
+      <p><small>Designing and Building Technology to support Cities, Neighborhoods and Local Communities</small></p>
+    </div>
+  </div>
+</div>
 
-
-  <div class="research-area">
-    <div class="overlay">
-      <span>
-        <br />Designing and Building Technology to improve People's Health and Well-Being 
-      </span>
+<div id="#community">
+  <h3>Community</h3>
+  <div class="row">
+    <div class="col-md-4">
+     <img src="assets/img/project.png" width="100%">   
     </div>
-    <img src="assets/img/community2.jpg">
-    <div class="research-title">
-      Health
+    <div class="col-md-8">
+      <h4>Tailoring user interface displays with social comparison strategies</h4>
+      <p>Lucas Colusso, Sean Munson, Gary Hsieh</p>
+      <p>This project's goal is to understand how social comparison theory can
+  assist adapting systems to different user scenarios. People approach
+  information and perform differently when using online systems.
+  Tailoring people's experiences might prove beneficial for increasing
+  their performance and engagement.</p>
+      <a href="">project website</a> </br>
     </div>
-  </div> <!-- Research Area 1 -->
-
-
-  <div class="research-area">
-    <div class="overlay">
-      <span>
-        <br />Designing and Building Technology to support Cities, Neighborhoods and Local Communities
-      </span>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+     <img src="assets/img/project.png" width="100%">   
     </div>
-    <img src="assets/img/community2.jpg">
-    <div class="research-title">
-      Politics
+    <div class="col-md-8">
+      <h4>Tailoring user interface displays with social comparison strategies</h4>
+      <p>Lucas Colusso, Sean Munson, Gary Hsieh</p>
+      <p>This project's goal is to understand how social comparison theory can
+  assist adapting systems to different user scenarios. People approach
+  information and perform differently when using online systems.
+  Tailoring people's experiences might prove beneficial for increasing
+  their performance and engagement.</p>
+      <a href="">project website</a> </br>
     </div>
-  </div> <!-- Research Area 1 -->
-
-
-  <div class="research-area">
-    <div class="overlay">
-      <span>
-        <br />Mobilizing People to Benefit Each Others' Lives 
-      </span>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+     <img src="assets/img/project.png" width="100%">   
     </div>
-    <img src="assets/img/community2.jpg">
-    <div class="research-title">
-      Crowd
+    <div class="col-md-8">
+      <h4>Tailoring user interface displays with social comparison strategies</h4>
+      <p>Lucas Colusso, Sean Munson, Gary Hsieh</p>
+      <p>This project's goal is to understand how social comparison theory can
+  assist adapting systems to different user scenarios. People approach
+  information and perform differently when using online systems.
+  Tailoring people's experiences might prove beneficial for increasing
+  their performance and engagement.</p>
+      <a href="">project website</a> </br>
     </div>
-  </div> <!-- Research Area 1 -->
-
-
-  <div class="research-area">
-    <div class="overlay">
-      <span>
-        <br />Making Tailored Motivators to Change Behavior 
-      </span>
+  </div>
+</div>
+<div id="#crowd">
+  <h3>Crowd</h3>
+  <div class="row">
+    <div class="col-md-4">
+     <img src="assets/img/project.png" width="100%">   
     </div>
-    <img src="assets/img/community2.jpg">
-    <div class="research-title">
-      Motivator
+    <div class="col-md-8">
+      <h4>Tailoring user interface displays with social comparison strategies</h4>
+      <p>Lucas Colusso, Sean Munson, Gary Hsieh</p>
+      <p>This project's goal is to understand how social comparison theory can
+  assist adapting systems to different user scenarios. People approach
+  information and perform differently when using online systems.
+  Tailoring people's experiences might prove beneficial for increasing
+  their performance and engagement.</p>
+      <a href="">project website</a> </br>
     </div>
-  </div> <!-- Research Area 1 -->
-</div> <!-- Research Body -->
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+     <img src="assets/img/project.png" width="100%">   
+    </div>
+    <div class="col-md-8">
+      <h4>Tailoring user interface displays with social comparison strategies</h4>
+      <p>Lucas Colusso, Sean Munson, Gary Hsieh</p>
+      <p>This project's goal is to understand how social comparison theory can
+  assist adapting systems to different user scenarios. People approach
+  information and perform differently when using online systems.
+  Tailoring people's experiences might prove beneficial for increasing
+  their performance and engagement.</p>
+      <a href="">project website</a> </br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+     <img src="assets/img/project.png" width="100%">   
+    </div>
+    <div class="col-md-8">
+      <h4>Tailoring user interface displays with social comparison strategies</h4>
+      <p>Lucas Colusso, Sean Munson, Gary Hsieh</p>
+      <p>This project's goal is to understand how social comparison theory can
+  assist adapting systems to different user scenarios. People approach
+  information and perform differently when using online systems.
+  Tailoring people's experiences might prove beneficial for increasing
+  their performance and engagement.</p>
+      <a href="">project website</a> </br>
+    </div>
+  </div>
+</div>
