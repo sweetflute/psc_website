@@ -49,12 +49,17 @@ a:hover{
   border-bottom: 4px solid #f4f4f5;
 }
 
-#find{
-  display: inline;
-  float:right;
-  font-size:9px;
-  text-transform: uppercase;
-  padding-top:15px;
+#frontimg{
+  width:80%
+}
+
+#mission{
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 38px;
+  letter-spacing: 1px;
 }
 
 .personal {
