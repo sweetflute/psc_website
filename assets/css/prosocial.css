@@ -38,8 +38,7 @@ a:hover{
   padding-left: 70px;
 }
 
-#pfooter{
-  padding-top: 30px;
+.pfooter{
   font-size:10px;
   line-height: 21px;
   color:gray;
