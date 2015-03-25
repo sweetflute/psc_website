@@ -1,9 +1,11 @@
 body{
   padding:0px;
 }
+
 .navbar-default {
-  background-color: #ef382c;
+  background-color: #FFF;
   border: 0px;
+  height: 100px
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -85,11 +87,9 @@ background-color: white;
   font-weight: bolder;
   margin-top: 15px;
   margin-bottom: -15px;
-  text-align: center;
 }
 
 .overlay-mission {
-  text-align:center;
   color: black;
   width: 50%;
   height: 250px;
@@ -106,7 +106,6 @@ background-color: white;
   width: 40px;
   height: 40px;
   padding-top: 9px;
-  text-align: center;
 }
 
 .back-to-top-font {

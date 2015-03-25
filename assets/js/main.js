@@ -19,8 +19,17 @@ window.onload = function () {
   var pagename = window.location.hash;
   if(pagename.length > 0) {
     pagename = pagename.substring(1) + ".html";
+  } else {
+    pagename = "frontpage.html";
   }
+
   changePage(pagename, "#contents")
+
+//   if(pagename == "")
+//     pagename = "frontpage.html";
+//   else
+//     pagename = pagename + ".html";
+//   changePage(pagename, "#content");
 }
 
 // $(window).on('hashchange', function(event) {
