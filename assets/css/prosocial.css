@@ -1,49 +1,19 @@
 body{
-  padding:0px;
+  padding-top: 70px;
 }
 
-.navbar-default {
-  background-color: #FFF;
-  border: 0px;
-  height: 100px
+hr{
+  border:2px solid #f4f4f5;
 }
 
-.navbar-default .navbar-nav>li>a {
-  color: black;
+h3, h4{
+  color: #965ba5;
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: red;
-}
-
-#navcontainer ul
-{
-margin: 0;
-padding: 0;
-list-style-type: none;
-text-align: center;
-}
-
-#navcontainer ul li { display: inline; }
-
-#navcontainer ul li a
-{
-text-decoration: none;
-padding: .2em 1em;
-color: #fff;
-background-color: white;
-}
-
-#navcontainer ul li a:hover
-{
-color: #fff;
-background-color: white;
+p{
+  color: #535353;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 #find{
@@ -68,6 +38,18 @@ background-color: white;
 .btn-default:hover {
   border-color: #ef382c;
   background-color: #ef382c;
+  color: white;
+}
+
+.btn-default:active {
+  border-color: #b51c0d;
+  background-color: #b51c0d;
+  color: white;
+}
+
+.btn-default:focus {
+  border-color: #b51c0d;
+  background-color: #b51c0d;
   color: white;
 }
 
@@ -114,11 +96,24 @@ background-color: white;
 
 #open{
   padding:10px;
-  background-color:black;
+  background-color:#965ba5;
   font-size:8px;
   font-weight: bolder;
 }
 
 #gh{
 color: white;
+}
+
+.pmenu{
+  padding-bottom: 30px;
+}
+
+.ptitle{
+  padding-left: 10px;
+  display: inline-table;
+}
+
+.pp{
+  padding-left: 70px;
 }
