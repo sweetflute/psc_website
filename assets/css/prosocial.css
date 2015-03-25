@@ -54,11 +54,6 @@ background-color: white;
   padding-top:15px;
 }
 
-.frontpanel {
-  background-color: white;
-  width: 100%;
-}
-
 .btn-default {
   margin-top: -60px;
   border: 2px solid black;
@@ -79,8 +74,6 @@ background-color: white;
 .personal {
   margin: 20px;
 }
-
-
 
 .mission{
   font-size: 16px;
@@ -117,4 +110,15 @@ background-color: white;
   padding:60px;
   background-color: #f4f4f5;
   border:0px;
+}
+
+#open{
+  padding:10px;
+  background-color:black;
+  font-size:8px;
+  font-weight: bolder;
+}
+
+#gh{
+color: white;
 }
