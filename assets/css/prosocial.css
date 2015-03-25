@@ -16,41 +16,17 @@ p{
   line-height: 18px;
 }
 
+.navbar-default {
+  background-color: #FFFFFF;
+  border-bottom: 4px solid #f4f4f5;
+}
+
 #find{
   display: inline;
   float:right;
   font-size:9px;
   text-transform: uppercase;
   padding-top:15px;
-}
-
-.btn-default {
-  margin-top: -60px;
-  border: 2px solid black;
-  color: black;
-  background-color: white;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 20px 30px 20px 30px;
-}
-
-.btn-default:hover {
-  border-color: #ef382c;
-  background-color: #ef382c;
-  color: white;
-}
-
-.btn-default:active {
-  border-color: #b51c0d;
-  background-color: #b51c0d;
-  color: white;
-}
-
-.btn-default:focus {
-  border-color: #b51c0d;
-  background-color: #b51c0d;
-  color: white;
 }
 
 .personal {
