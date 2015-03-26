@@ -1,5 +1,6 @@
 body{
   padding-top: 70px;
+  padding-bottom: 0px;
 }
 
 hr{
@@ -16,41 +17,50 @@ p{
   line-height: 18px;
 }
 
-#find{
-  display: inline;
-  float:right;
-  font-size:9px;
-  text-transform: uppercase;
-  padding-top:15px;
+a{
+  color: #4ba1d9;
 }
 
-.btn-default {
-  margin-top: -60px;
-  border: 2px solid black;
-  color: black;
-  background-color: white;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 20px 30px 20px 30px;
+a:hover{
+  color: #965ba5;
 }
 
-.btn-default:hover {
-  border-color: #ef382c;
-  background-color: #ef382c;
-  color: white;
+.pmenu{
+  padding-bottom: 30px;
 }
 
-.btn-default:active {
-  border-color: #b51c0d;
-  background-color: #b51c0d;
-  color: white;
+.ptitle{
+  padding-left: 10px;
+  display: inline-table;
 }
 
-.btn-default:focus {
-  border-color: #b51c0d;
-  background-color: #b51c0d;
-  color: white;
+.pp{
+  padding-left: 70px;
+}
+
+.pfooter{
+  font-size:10px;
+  line-height: 21px;
+  color:gray;
+  padding-bottom:15px;
+}
+
+.navbar-default {
+  background-color: #FFFFFF;
+  border-bottom: 4px solid #f4f4f5;
+}
+
+#frontimg{
+  width:80%
+}
+
+#mission{
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 38px;
+  letter-spacing: 1px;
 }
 
 .personal {
@@ -89,7 +99,7 @@ p{
 
 .footer {
   margin-top:60px;
-  padding:60px;
+  padding:40px;
   background-color: #f4f4f5;
   border:0px;
 }
@@ -99,21 +109,9 @@ p{
   background-color:#965ba5;
   font-size:8px;
   font-weight: bolder;
+  text-align:center;
 }
 
 #gh{
 color: white;
-}
-
-.pmenu{
-  padding-bottom: 30px;
-}
-
-.ptitle{
-  padding-left: 10px;
-  display: inline-table;
-}
-
-.pp{
-  padding-left: 70px;
 }
