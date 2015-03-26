@@ -34,7 +34,7 @@
     , preload:          "spinner"
     , button:           "btn btn-success pull-right"
     , buttontext:       "Load more"
-    , column:           "col-md-4 nopadding"
+    , column:           "col-xs-4 nopadding"
     , likeicon:         "glyphicon glyphicon-heart"
     , muteicon:         "glyphicon glyphicon-volume-off"
     , videoicon:        "glyphicon glyphicon-play"
