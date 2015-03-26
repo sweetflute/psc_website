@@ -22,10 +22,19 @@
 
   <div class="col-md-6">
     <h4>Pictures</h4>
+    
+    <script>
+      $(document).ready(function () {
 
-    <div class="instagram"></div>
-<!-- SnapWidget -->
-<iframe src="http://snapwidget.com/in/?u=cHJvc29jaWFsY29tcHV0aW5nfGlufDExMHwzfDN8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3xubw==&ve=250315" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:345px; height:345px"></iframe>
+        $('#instafeed').pongstgrm({
+          show:         'recent'
+        });
+           
+
+      });
+    </script>
+
+    <div id="instafeed"></div>
 
   </div>
   <!-- end social footer -->

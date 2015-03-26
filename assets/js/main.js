@@ -48,7 +48,11 @@ window.onload = function () {
 function interceptPageChange(event) {
   var pagename = $(this).attr('href');
   var formattedpagename = pagename.substring(0, pagename.lastIndexOf("."));
-  if(formattedpagename == "frontpage") formattedpagename = "";
+  if(formattedpagename == "frontpage") {
+    formattedpagename = "";
+
+  }
+
   // console.log(pagename);
 
   // This fakes out the page name, but this doesn't help in retrieving pages
