@@ -142,7 +142,7 @@ function renderPubs(pubData, target) {
     .classed('award-text', true)
     .text(function(d) { return d.award; });
 
- 
+
   //authors
   pubInfo.append('div')
       .classed('authors', true)

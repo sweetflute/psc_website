@@ -3,13 +3,21 @@ body{
   padding-bottom: 0px;
 }
 
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  background-color: #f4f4f5;
+}
+
 hr{
   border:2px solid #f4f4f5;
 }
 
-h3, h4{
-  color: #965ba5;
+h3{
+  color: #534157;
   padding-bottom: 15px;
+}
+
+h4{
+  color: #534157;
 }
 
 p{
@@ -39,7 +47,7 @@ a:hover{
   padding-left: 70px;
 }
 
-.pfooter{
+.small{
   font-size:10px;
   line-height: 21px;
   color:gray;
@@ -123,4 +131,15 @@ color: white;
 
 #research-area{
   padding-top:40px;
+}
+
+a.select:hover > h4 {
+  color: #965ba5;
+  text-decoration:underline;
+
+}
+
+.outlink{
+  color:#4ba1d9;
+  font-size:12px;
 }
