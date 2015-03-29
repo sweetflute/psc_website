@@ -51,7 +51,13 @@ a:hover{
   font-size:10px;
   line-height: 21px;
   color:gray;
-  padding-bottom:15px;
+}
+
+.smallb{
+  font-size:10px;
+  font-weight:bold;
+  line-height: 21px;
+  color:gray;
 }
 
 .navbar-default {

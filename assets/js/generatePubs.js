@@ -60,9 +60,11 @@ function buildYears(pubData, target) {
     .classed('yearGroup', true);
 
   if (SHOW_YEAR_HEADINGS)
-    years.append('h2').text(function(d) {return d.key; });
+    years.append('h3').text(function(d) {return d.key; });
+
 
   years.each(buildTypes);
+
 }
 
 // Organize by type of publication
@@ -84,7 +86,7 @@ function renderPubs(pubData, target) {
       .data(function(d) {return d.values;});
 
   pubs.enter().append('div')
-      .classed('pub', true);
+      .classed('space', true);
 
   if (SHOW_THUMBNAILS) {
     // representative image
@@ -115,9 +117,9 @@ function renderPubs(pubData, target) {
 
   // title
   var titles = pubInfo.append('div')
-      .classed('title', true)
-      .append('a')
-      .attr('href', function(d) { return d.pdf; })
+      .classed('h4', true)
+  //    .append('a')
+    //  .attr('href', function(d) { return d.pdf; })
       .text(function(d) { return d.title; });
 
   // Add award icon and text
@@ -143,22 +145,23 @@ function renderPubs(pubData, target) {
     .text(function(d) { return d.award; });
 
 
-  //authors
-  pubInfo.append('div')
-      .classed('authors', true)
-      .html(function(d) {
-        return d.author.join(", ")
-                       .replace(MY_NAME, '<span class="me">' + MY_NAME + '</span>');
-      });
+//info
 
-  // venue, year
-  pubInfo.append('div')
-      .classed('venue', true)
-      .text(function(d) { return d.venue + ' '+ d.year; });
+    //authors
+      pubInfo.append('p')
+          .classed('small', true)
+          .html(function(d) {
+            return d.author.join(", ")
+          });
+
+    //venue, year
+      pubInfo.append('p')
+          .classed('smallb', true)
+          .text(function(d) { return d.venue + ' '+ d.year; });
 
   // add supplemental links
-  pubInfo.append('text')
-    .classed('supp', true)
+
+  pubInfo.append('p')
     .html(function(d) {
       // First add paper pdf (if there is one)
       var supplementals = ''
